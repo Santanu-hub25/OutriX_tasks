@@ -1,1 +1,0 @@
-# OutriX_tasks
