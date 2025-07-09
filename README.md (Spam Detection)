@@ -1,5 +1,0 @@
-# Spam Detection Using Machine Learning
-## Project Overview
-
-This project demonstrates how to build a **Spam Detection** system using machine learning techniques in Python.
-The goal is to classify SMS messages or emails as **spam** (unwanted, unsolicited messages) or **ham** (legitimate messages) by preprocessing the text data, extracting meaningful features, training classifiers, and evaluating their performance.
