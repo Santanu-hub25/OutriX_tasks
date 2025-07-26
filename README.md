@@ -179,6 +179,99 @@ Visualizations show the most frequent words in tweets per sentiment class, highl
 - [NLTK](https://www.nltk.org/) - Natural Language Toolkit
 - Inspiration from Real Python tutorials and open-source sentiment analysis projects.
 
+# AI Chatbot for FAQs and Simple Conversations
+
+A simple AI chatbot project in Python for answering Frequently Asked Questions (FAQs) and basic conversation, built using Natural Language Processing (NLP) techniques. Perfect for demos, educational use, and small-scale deployments.
+
+## Project Overview
+This project implements a lightweight AI chatbot in Python designed to answer Frequently Asked Questions (FAQs) and handle simple conversational exchanges. It leverages core Natural Language Processing (NLP) techniques such as text preprocessing, TF-IDF vectorization, and cosine similarity to match user inputs with predefined question-answer pairs. The chatbot is built for interactive use within a Jupyter Notebook environment, making it accessible for educational purposes, quick prototyping, and small-scale deployments.
+
+## Features
+
+- Answers FAQs by matching user questions against a predefined database.
+- Handles simple conversational exchanges like greetings and farewells.
+- Easy to customize the questions and answers.
+- Uses NLP preprocessing (tokenization, stopword removal) for improved accuracy.
+- Vectorizes text using TF-IDF and compares similarity using cosine distance.
+- Runs fully in a Jupyter Notebook.
+
+## Installation
+
+1. Clone the repository:
+Git clone https://github.com/Santanu-hub25/OutriX_tasks/blob/main/Chatbot%20Using%20NLP%20and%20Deep%20Learning.ipynb
+
+2. Install the required libraries by running the following command in a Jupyter notebook cell:
+- import sys
+- !{sys.executable} -m pip install --upgrade --user nltk scikit-learn
+
+
+3. Download NLTK Resources
+
+At the start of your notebook, make sure to download NLTK resources:
+- import nltk
+- nltk.download('punkt')
+- nltk.download('stopwords')
+
+
+## Usage
+
+1. Load the notebook and define or update the FAQ data with your desired question-answer pairs.
+2. Execute all cells to initialize the chatbot logic.
+3. Interact with the chatbot through the input prompt; type queries or greetings.
+4. To exit, type commands such as `"bye"`, `"exit"`, or `"quit"`.
+
+## Example Interaction
+
+You: Hi
+Bot: Hello! How can I help you today?
+
+You: What are your hours?
+Bot: We are open from 9 AM to 5 PM, Monday to Friday.
+
+You: Where are you located?
+Bot: We are located at 123 Main Street.
+
+You: Bye
+Bot: Goodbye! Have a great day!
+
+## Prerequisites
+
+- Python 3.7 or above
+- Jupyter Notebook (recommended)
+- `nltk` and `scikit-learn` libraries
+
+
+## Troubleshooting
+
+- **"Access is denied" error during installation:**  
+  Use the `--user` flag as shown in the installation step above.
+
+- **Bot doesn’t recognize a question:**  
+  Expand or phrase questions more closely to match the FAQ database. You can easily add more Q&A pairs.
+
+## Customization
+
+- Edit the `faq_data` list to add or modify questions and answers.
+- Adjust the similarity threshold in the chatbot logic to control sensitivity.
+- Extend with new intents or integrate with advanced models for richer conversations.
+
+
+## Contributing
+
+Pull requests and suggestions are welcome. For major changes, please create an issue first to discuss what you would like to change.
+
+Developed with using [NLTK](https://www.nltk.org/) and [scikit-learn](https://scikit-learn.org/).
+
+---
+
+## Contact
+
+For questions or suggestions, please open an issue or contact [santanuworkspace25@gmail.com].
+
+Thank you for checking out this projects !
+
+
+
 
 ## Contact
 
