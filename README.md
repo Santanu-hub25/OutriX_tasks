@@ -179,7 +179,9 @@ Visualizations show the most frequent words in tweets per sentiment class, highl
 - [NLTK](https://www.nltk.org/) - Natural Language Toolkit
 - Inspiration from Real Python tutorials and open-source sentiment analysis projects.
 
-# AI Chatbot for FAQs and Simple Conversations
+---
+
+# 3. AI Chatbot for FAQs and Simple Conversations
 
 A simple AI chatbot project in Python for answering Frequently Asked Questions (FAQs) and basic conversation, built using Natural Language Processing (NLP) techniques. Perfect for demos, educational use, and small-scale deployments.
 
@@ -220,21 +222,8 @@ At the start of your notebook, make sure to download NLTK resources:
 3. Interact with the chatbot through the input prompt; type queries or greetings.
 4. To exit, type commands such as `"bye"`, `"exit"`, or `"quit"`.
 
-## Example Interaction
 
-You: Hi
-Bot: Hello! How can I help you today?
-
-You: What are your hours?
-Bot: We are open from 9 AM to 5 PM, Monday to Friday.
-
-You: Where are you located?
-Bot: We are located at 123 Main Street.
-
-You: Bye
-Bot: Goodbye! Have a great day!
-
-## Prerequisites
+## Dependencies
 
 - Python 3.7 or above
 - Jupyter Notebook (recommended)
@@ -255,6 +244,20 @@ Bot: Goodbye! Have a great day!
 - Adjust the similarity threshold in the chatbot logic to control sensitivity.
 - Extend with new intents or integrate with advanced models for richer conversations.
 
+## Result
+
+- You: Hi
+- Bot: Hello! How can I help you today?
+
+- You: What are your hours?
+- Bot: We are open from 9 AM to 5 PM, Monday to Friday.
+
+- You: Where are you located?
+- Bot: We are located at 123 Main Street.
+
+- You: Bye
+- Bot: Goodbye! Have a great day!
+
 
 ## Contributing
 
@@ -270,14 +273,6 @@ For questions or suggestions, please open an issue or contact [santanuworkspace2
 
 Thank you for checking out this projects !
 
-
-
-
-## Contact
-
-For questions or suggestions, please open an issue or contact [santanuworkspace25@gmail.com].
-
-Thank you for checking out this projects !
 
 
 
